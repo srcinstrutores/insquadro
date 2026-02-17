@@ -384,7 +384,7 @@ function verificarPermissoesUI() {
             `
         } else if (isFiscalizacaoPura) {
             console.log('Renderizando FISCALIZACAO PURA')
-            badgesHTML = `<span class="panel-badge fiscalizacao">${usuarioAtual.cargo} (Setor de Fiscalização)</span>`
+            badgesHTML = `<span class="panel-badge fiscalizacao">${usuarioAtual.cargo}</span>`
         } else if (usuarioAtual.setorFiscalizacao) {
             console.log('Renderizando cargo com fiscalização')
             badgesHTML = `
